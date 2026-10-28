@@ -1,0 +1,34 @@
+# Archivos con secretos y variables de entorno locales
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Backend (Maven / Java / IDEs)
+target/
+backend/target/
+*.class
+*.log
+*.jar
+*.war
+.mvn/timing.properties
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Frontend (Node / Vite)
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
